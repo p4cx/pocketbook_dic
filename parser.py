@@ -39,7 +39,7 @@ if __name__ == '__main__':
     db = './lex_big_3.db'
     xdxf = './lex.xdxf'
     connect = create_db(db)
-    # parse_txt_to_db(txt, connect)
+    parse_txt_to_db(txt, connect)
     parse_db_to_xdxf(xdxf, connect)
 
     connect.close()
