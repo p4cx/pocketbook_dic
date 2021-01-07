@@ -1,6 +1,10 @@
-# POCKETBOOK DICTIONARY
+# POCKETBOOK DICTIONARY DICT.CC
 
-A few years ago I bought a Pocketbook Lux 4 e-book reader and found it had a lousy dictionary. As a non-native speaker, I enjoy reading English books, so I occasionally need a translation of a word. The standard dictionaries on this device only provide basic vocabulary and therefore do not help me any further. Because of this problem, I looked around a little and only found expensive dictionaries that weren't big enough for my taste. After a little research I found out that you can now use stardict dictionaries if you use another reader application on your eBook reader. This instruction is for the classic way and here I decided to create my own dictionary based on the data provided by dict.cc.
+<p style="text-align: center; border: solid 2px #000">
+    <img src="screenshot.jpg" alt="screenshot pocketbook dictionary" />
+</p>
+
+A few years ago I bought a Pocketbook Touch HD 3 e-book reader and found it had a lousy standard dictionary. As a non-native speaker, I enjoy reading English books, so I occasionally need a translation of a word. The standard dictionaries on this device only provide basic vocabulary and therefore do not help me any further. Because of this problem, I looked around a little and only found expensive dictionaries that weren't big enough for my taste. After a little research I found out that you can now use stardict dictionaries if you use another reader application on your eBook reader. This instruction is for the classic way and here I decided to create my own dictionary based on the data provided by dict.cc.
 
 Excerpts from the page ["About dict.cc"](https://www.dict.cc/?s=about%3A&l=e):
 > [...]   
@@ -9,7 +13,7 @@ Excerpts from the page ["About dict.cc"](https://www.dict.cc/?s=about%3A&l=e):
 
 Therefore I do not offer the finished dictionary for download, you have to download the vocabulary from dict.cc yourself.
 
-The instructions were developed and tested on January 6, 2021 for the ENG-GER data (English to German). If it doesn't work, you are out of luck. If I have the time and feel like it, I will provide assistance, but cannot guarantee it. Feel free to add new languages ​​to this script or improve it elsewhere.
+The instructions were developed and tested on January 7, 2021 for the ENG-GER data (English to German). If it doesn't work, you are out of luck. If I have the time and feel like it, I will provide assistance, but cannot guarantee it. Feel free to add new languages ​​to this script or improve it elsewhere.
 
 ### How to create a (translation) dictionary for Pocketbook eBook Readers:
 (These instructions have only been tested with the Pocketbook Touch 3, but the newly created dictionaries should work on all Pocketbook devices.)
@@ -22,6 +26,8 @@ The instructions were developed and tested on January 6, 2021 for the ENG-GER da
     - You can download converter.exe here: [Mobileread forum](https://www.mobileread.com/forums/showpost.php?p=3923250&postcount=3), there are a few different versions on this forum: I have tested two different ones and the result were exactly the same
     - Copy your `lex.xdxf` file into the extracted directory of the converter. There should be an executable file and some folders like `ger` or `eng`.
     - Run cmd or Powershell under Windows or with Wine (does not work on my machine): `./converter.exe ./lex.xdxf eng`
-5. Copy the new dictation file on your Pocketbook reader
+5. Copy the new dictation file on your Pocketbook reader in `/system/dictionionaries/lex.dic`
+
+Good luck and much fun with your new dictionary
 
 <sup>1</sup> Further information on the xdxf standard: [https://github.com/soshial/xdxf_makedict](https://github.com/soshial/xdxf_makedict)
