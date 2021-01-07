@@ -1,7 +1,7 @@
 # POCKETBOOK DICTIONARY DICT.CC
 
 <p style="text-align: center; border: solid 2px #000">
-    <img src="screenshot.jpg" alt="screenshot pocketbook dictionary" />
+    <img src="screenshot.jpg" alt="screenshot pocketbook dictionary" style="max-width: 400px;"/>
 </p>
 
 A few years ago I bought a Pocketbook Touch HD 3 e-book reader and found it had a lousy standard dictionary. As a non-native speaker, I enjoy reading English books, so I occasionally need a translation of a word. The standard dictionaries on this device only provide basic vocabulary and therefore do not help me any further. Because of this problem, I looked around a little and only found expensive dictionaries that weren't big enough for my taste. After a little research I found out that you can now use stardict dictionaries if you use another reader application on your eBook reader. This instruction is for the classic way and here I decided to create my own dictionary based on the data provided by dict.cc.
