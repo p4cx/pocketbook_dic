@@ -6,7 +6,7 @@ This tool generates a xdxf file from the dict.cc ENG-GER vocabulary, which can b
 ## Still in progress, soon v2 will be merged to the main branch
 
 ![Screenshot pocketbook e-book reader translation ENG-GER](screenshot.jpg)   
-*Passage from "The Hitchhiker's Guide to the Galaxy" by Douglas Adams*
+*Passage from "Alice in Wonderland" by Douglas Adams*
 
 A few years ago I bought a Pocketbook Touch HD 3 e-book reader and found it had a lousy standard dictionary. As a non-native speaker, I enjoy reading English books, so I occasionally need a translation of a word. The standard dictionaries on this device only provide basic vocabulary and therefore do not help me any further. Because of this problem, I looked around a little and only found expensive dictionaries that weren't big enough for my taste. After a little research I found out that you can now use stardict dictionaries if you use another reader application on your eBook reader. This instruction is for the classic way and here I decided to create my own dictionary based on the data provided by dict.cc.
 
@@ -15,7 +15,7 @@ Excerpt from the page ["About dict.cc"](https://www.dict.cc/?s=about%3A&l=e):
 > All services offered by dict.cc can be used in the web browser for free, both for private and business purposes. All other ways of usage, particularly automated requests (parsing) require express permission.    
 > [...]   
 
-Therefore I do not offer the finished dictionary for download, you have to download the vocabulary from dict.cc yourself.
+Therefore I do not offer the finished dictionary for download, you have to download the vocabulary file from dict.cc yourself.
 
 The instructions were rewritten and tested in March, 2025 for the ENG-GER data (English to German). If I have the time and feel like it, I will provide assistance, but cannot guarantee it. Feel free to add new languages ​​to this script or improve it elsewhere.
 
@@ -38,7 +38,7 @@ No need to specify the database nor output file, as those will be automatically 
 3. Get some coffee, read a book, or clean your kitchen - it will take some time. In my case it took precisly 126m29,468s on a i5-8365U CPU @ 1.60GHz, combined with 16GB RAM. Still slow, but faster than the previous version of this tool and I take this as a win.
 4. Now we need to convert the newly created `<name>.xdxf`<sup>1</sup> file with converter.exe
     - You can download converter.exe here: [Mobileread forum](https://www.mobileread.com/forums/showpost.php?p=3923322&postcount=6), there are a few different versions of this tool on this forum. I tested couple versions and this one just works fine with [wine](https://www.winehq.org/)
-    - Copy your `*.xdxf` file into the extracted directory of the converter. There should be an executable file and some folders like `ger` or `eng`. These are needed for the converter.
+    - Copy your `*.xdxf` file into the extracted directory of the converter. There should be an executable file and a folder names `en`. You can get the needed files for the converter from [Markismus Language Repository](https://github.com/Markismus/LanguageFilesPocketbookConverter). These are needed for the converter.
     - Run cmd or Powershell under Windows or with wine: `wine ./converter.exe ./<name>.xdxf en` (set paths correct for your os)
 5. Copy the new dictation file on your Pocketbook reader in `/system/dictionionaries/<name>.dic`
 
