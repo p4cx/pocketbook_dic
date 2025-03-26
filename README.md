@@ -6,7 +6,7 @@ This tool generates a xdxf file from the dict.cc ENG-GER vocabulary, which can b
 ## Still in progress, soon v2 will be merged to the main branch
 
 ![Screenshot pocketbook e-book reader translation ENG-GER](screenshot.jpg)   
-*Passage from "Alice in Wonderland" by Douglas Adams*
+*Passage from "Alice's Adventures in Wonderland" by Lewis Carroll*
 
 A few years ago I bought a Pocketbook Touch HD 3 e-book reader and found it had a lousy standard dictionary. As a non-native speaker, I enjoy reading English books, so I occasionally need a translation of a word. The standard dictionaries on this device only provide basic vocabulary and therefore do not help me any further. Because of this problem, I looked around a little and only found expensive dictionaries that weren't big enough for my taste. After a little research I found out that you can now use stardict dictionaries if you use another reader application on your eBook reader. This instruction is for the classic way and here I decided to create my own dictionary based on the data provided by dict.cc.
 
