@@ -45,4 +45,9 @@ The instructions were rewritten and tested in March, 2025 for the ENG-GER data (
 
 Good luck and much fun with your new dictionary
 
+### How add to the code:
+Feel free to open a Pull Request as long as the MIT license it being respected, I will have a look at your contributions.
+
+One idea to continue working on this project is to have a look at multi-level entries. During the runtime of the conversion it creates a sqlite database with all the entries sorted (maybe not the best solution, but for now it works...) and sorts words into level. If a word stands alone, like `mad` in the screenshot, then it is being considered level 1. If there are entries with multiple words, like `flaming mad` it will be categorized into higher levels, in this case level 2. Every word not being level 1 is being ignored at the moment, as it resulted already in a dictionary with roughly 180k entries, but it could be easily improved... Have fun with the tool.
+
 <sup>1</sup> Further information on the xdxf standard: [https://github.com/soshial/xdxf_makedict](https://github.com/soshial/xdxf_makedict)
