@@ -1,9 +1,9 @@
 # POCKETBOOK DICTIONARY DICT.CC
 
 ## tl;dr
-This tool generates a xdxf file from the dict.cc ENG-GER vocabulary, which can be converted to a dictionary for Pocketbook e-book readers.
+This tool generates a xdxf file from the dict.cc ENG-GER vocabulary, which can be converted to a dictionary for Pocketbook e-book readers. You can download the final Pocketbook dictionary on [dict.cc](https://www.dict.cc/?s=about%3Awordlist). 
 
-## Still in progress, soon v2 will be merged to the main branch
+<hr />
 
 ![Screenshot pocketbook e-book reader translation ENG-GER](screenshot.jpg)   
 *Passage from "Alice's Adventures in Wonderland" by Lewis Carroll*
@@ -15,7 +15,7 @@ Excerpt from the page ["About dict.cc"](https://www.dict.cc/?s=about%3A&l=e):
 > All services offered by dict.cc can be used in the web browser for free, both for private and business purposes. All other ways of usage, particularly automated requests (parsing) require express permission.    
 > [...]   
 
-Therefore I do not offer the finished dictionary for download, you have to download the vocabulary file from dict.cc yourself.
+Therefore I do not offer the finished dictionary for download, you have to download the vocabulary file from dict.cc yourself. I talked to Paul Hemetsberger, the maintainer of dict.cc, and he uploaded it [on dict.cc](https://www.dict.cc/?s=about%3Awordlist) (Stand March, 2025).
 
 The instructions were rewritten and tested in March, 2025 for the ENG-GER data (English to German). If I have the time and feel like it, I will provide assistance, but cannot guarantee it. Feel free to add new languages ​​to this script or improve it elsewhere. I welcome Pull requests!
 
